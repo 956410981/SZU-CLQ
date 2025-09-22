@@ -54,41 +54,47 @@
   <!-- 搜索框 -->
   <input type="text" id="searchBox" placeholder="🔍 输入关键词搜索文献...">
 
-  <!-- 下拉列表 -->
-  <details>
-    <summary>图像篡改检测</summary>
-    <ul>
-      <li><a href="https://arxiv.org/abs/xxxx" target="_blank">Deepfake Detection Survey (arXiv)</a></li>
-      <li><a href="https://www.jianguoyun.com/p/zzzz" target="_blank">实验室PPT: 篡改检测方法综述 (坚果云)</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>水印与溯源</summary>
-    <ul>
-      <li><a href="https://arxiv.org/abs/yyyy" target="_blank">Watermarking for Generative Models (arXiv)</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>内部资料</summary>
-    <ul>
-      <li><a href="https://www.jianguoyun.com/p/aaaa" target="_blank">会议报告: 图像取证技术现状 (PPT)</a></li>
-      <li><a href="https://www.jianguoyun.com/folder/bbbb" target="_blank">组会资料汇总 (坚果云文件夹)</a></li>
-    </ul>
-  </details>
+  <!-- 容器 -->
+  <div id="content"></div>
 
   <script>
+    async function loadConfig() {
+      const res = await fetch("config.json");
+      const data = await res.json();
+      const content = document.getElementById("content");
+
+      for (const [topic, papers] of Object.entries(data)) {
+        const details = document.createElement("details");
+        const summary = document.createElement("summary");
+        summary.textContent = topic;
+        details.appendChild(summary);
+
+        const ul = document.createElement("ul");
+        papers.forEach(paper => {
+          const li = document.createElement("li");
+          const a = document.createElement("a");
+          a.href = paper.link;
+          a.textContent = paper.title;
+          a.target = "_blank";
+          li.appendChild(a);
+          ul.appendChild(li);
+        });
+        details.appendChild(ul);
+        content.appendChild(details);
+      }
+    }
+
     // 搜索功能
-    const searchBox = document.getElementById("searchBox");
-    searchBox.addEventListener("input", function() {
+    document.getElementById("searchBox").addEventListener("input", function() {
       const keyword = this.value.toLowerCase();
-      const items = document.querySelectorAll("details ul li");
+      const items = document.querySelectorAll("#content li");
       items.forEach(li => {
         const text = li.textContent.toLowerCase();
         li.style.display = text.includes(keyword) ? "list-item" : "none";
       });
     });
+
+    loadConfig();
   </script>
 </body>
 </html>

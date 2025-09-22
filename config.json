@@ -1,0 +1,28 @@
+{
+  "图像篡改检测": [
+    {
+      "title": "Deepfake Detection Survey (arXiv)",
+      "link": "https://arxiv.org/abs/xxxx"
+    },
+    {
+      "title": "实验室PPT: 篡改检测方法综述 (坚果云)",
+      "link": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA"
+    }
+  ],
+  "水印与溯源": [
+    {
+      "title": "Watermarking for Generative Models (arXiv)",
+      "link": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA"
+    }
+  ],
+  "内部资料": [
+    {
+      "title": "会议报告: 图像取证技术现状 (PPT)",
+      "link": "https://www.jianguoyun.com/p/aaaa"
+    },
+    {
+      "title": "组会资料汇总 (坚果云文件夹)",
+      "link": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA"
+    }
+  ]
+}
