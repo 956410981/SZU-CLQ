@@ -16,6 +16,22 @@
       {
         "title": "遗忘学习专题汇报",
         "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F%E7%BB%84%E4%BC%9A%E6%96%87%E7%8C%AE%E5%88%86%E4%BA%AB%E4%B8%93%E9%A2%98%E6%B1%87%E6%80%BB_2025_9%E6%9C%88%E8%B5%B7%2F%E9%81%97%E5%BF%98%E5%AD%A6%E4%B9%A0%2F%E9%99%88%E4%B9%90%E5%8D%BF-unlearning%E4%B8%93%E9%A2%98.pptx::size=1647868"
+      },
+      {
+        "title": "Set You Straight: Auto-Steering Denoising Trajectories to Sidestep Unwanted Concepts",
+        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F%E7%BB%84%E4%BC%9A%E6%96%87%E7%8C%AE%E5%88%86%E4%BA%AB%E4%B8%93%E9%A2%98%E6%B1%87%E6%80%BB_2025_9%E6%9C%88%E8%B5%B7%2F%E9%81%97%E5%BF%98%E5%AD%A6%E4%B9%A0%2Fpaper-Set%20You%20Straight%20Auto-Steering%20Denoising%20Trajectories.pdf::size=8572105"
+      },
+      {
+        "title": "Boundary Unlearning: Rapid Forgetting of Deep Networks via Shifting the Decision Boundary",
+        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F%E7%BB%84%E4%BC%9A%E6%96%87%E7%8C%AE%E5%88%86%E4%BA%AB%E4%B8%93%E9%A2%98%E6%B1%87%E6%80%BB_2025_9%E6%9C%88%E8%B5%B7%2F%E9%81%97%E5%BF%98%E5%AD%A6%E4%B9%A0%2Fpaper-Boundary_Unlearning_Rapid_Forgetting_of_Deep_Networks_via_Shifting_the_CVPR_2023_paper.pdf::size=8552159"
+      },
+      {
+        "title": "Offset Unlearning for Large Language Models",
+        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F%E7%BB%84%E4%BC%9A%E6%96%87%E7%8C%AE%E5%88%86%E4%BA%AB%E4%B8%93%E9%A2%98%E6%B1%87%E6%80%BB_2025_9%E6%9C%88%E8%B5%B7%2F%E9%81%97%E5%BF%98%E5%AD%A6%E4%B9%A0%2Fpaper-Offset%20Unlearning%20for%20Large%20Language%20Models.pdf::size=1212536"
+      },
+      {
+        "title": "Machine Unlearning in Generative AI: A Survey",
+        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F%E7%BB%84%E4%BC%9A%E6%96%87%E7%8C%AE%E5%88%86%E4%BA%AB%E4%B8%93%E9%A2%98%E6%B1%87%E6%80%BB_2025_9%E6%9C%88%E8%B5%B7%2F%E9%81%97%E5%BF%98%E5%AD%A6%E4%B9%A0%2FMachine%20Unlearning%20in%20Generative%20AI%20A%20Survey.pdf::size=1636863"
       }
     ]
   },
@@ -55,5 +71,5 @@
       }
     ]
   }
-  
+
 }
