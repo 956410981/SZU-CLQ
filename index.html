@@ -123,28 +123,24 @@
             const links = document.createElement("div");
             links.style.marginLeft = "15px";
 
-            // --- 支持多个 paper
-            if (paper.papers) {
-              paper.papers.forEach(p => {
-                const aPaper = document.createElement("a");
-                aPaper.href = p.link;
-                aPaper.target = "_blank";
-                aPaper.textContent = p.name || "Paper";
-                aPaper.style.marginRight = "10px";
-                links.appendChild(aPaper);
-              });
+            // 如果有 paper 链接，才生成
+            if (paper.paper) {
+              const aPaper = document.createElement("a");
+              aPaper.href = paper.paper;
+              aPaper.target = "_blank";
+              // 如果 config.json 里有 paperName，就显示 paperName，否则显示 "Paper"
+              aPaper.textContent = paper.paperName || "Paper";
+              aPaper.style.marginRight = "10px";
+              links.appendChild(aPaper);
             }
 
-            // --- 支持多个 ppt
-            if (paper.ppts) {
-              paper.ppts.forEach(ppt => {
-                const aPPT = document.createElement("a");
-                aPPT.href = ppt.link;
-                aPPT.target = "_blank";
-                aPPT.textContent = ppt.name || "PPT";
-                aPPT.style.marginRight = "10px";
-                links.appendChild(aPPT);
-              });
+            // 如果有 ppt 链接，才生成
+            if (paper.ppt) {
+              const aPPT = document.createElement("a");
+              aPPT.href = paper.ppt;
+              aPPT.target = "_blank";
+              aPPT.textContent = "PPT";
+              links.appendChild(aPPT);
             }
 
             li.appendChild(title);
