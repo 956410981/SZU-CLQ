@@ -1,28 +1,43 @@
 {
-  "图像篡改检测": [
-    {
-      "title": "Deepfake Detection Survey (arXiv)",
-      "link": "https://arxiv.org/abs/xxxx"
-    },
-    {
-      "title": "实验室PPT: 篡改检测方法综述 (坚果云)",
-      "link": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA"
-    }
-  ],
-  "水印与溯源": [
-    {
-      "title": "Watermarking for Generative Models (arXiv)",
-      "link": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2023-11-8%2FPaper-%E9%99%88%E9%87%91%E5%9F%8E%20-%202023%20-%20Invisible%20Watermarking%20for%20Audio%20Generation%20Diffus.pdf::size=17741417"
-    }
-  ],
-  "内部资料": [
-    {
-      "title": "会议报告: 图像取证技术现状 (PPT)",
-      "link": "https://www.jianguoyun.com/p/aaaa"
-    },
-    {
-      "title": "组会资料汇总 (坚果云文件夹)",
-      "link": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA"
-    }
-  ]
+  "大模型Reasoning": {
+    "2025": [
+      {
+        "title": "陈鹏迪-大模型推理专题汇报",
+        "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2025-09-01%2FLLM%20resion%20%20background%26inference%20scaling.pptx::size=2265923"
+      },
+      {
+        "title": "邓浩奕-大模型推理专题汇报",
+        "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2025-09-11%2FPPT-LLM%20Reasoning-%E9%82%93%E6%B5%A9%E5%A5%95-%E6%9B%B4%E6%96%B0.pptx::size=1244551"
+      }
+    ]
+  },
+  "遗忘学习": {
+    "2025": [
+      {
+        "title": "陈乐卿-遗忘学习专题汇报",
+        "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2025-09-11%2F%E9%99%88%E4%B9%90%E5%8D%BF-unlearning%E4%B8%93%E9%A2%98.pptx::size=1647868"
+      }
+    ]
+  },
+  "TTA测试时适应": {
+    "2025": [
+      {
+        "title": "刘培凤-测试时自适应（TTT）专题汇报",
+        "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2025-09-18%2FPPT-2025-09-17-%E5%88%98%E5%9F%B9%E9%A3%8E-TTT.pptx::size=1892297"
+      }
+    ]
+  },
+  "大模型隐式推理": {
+    "2025": [
+      {
+        "title": "许裕雄-大模型隐式推理（什么是隐式推理）",
+        "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2025-09-18%2FPaper-%E8%AE%B8%E8%A3%95%E9%9B%84-2025-Implicit%20Reasoning%20in%20Large%20Language%20Models%20A%20Comprehensive%20Survey.pdf::size=6209217"
+      },
+      {
+        "title": "李松泽-大模型隐式推理（证明隐式推理）",
+        "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2025-09-18%2FPaper-%E8%AE%B8%E8%A3%95%E9%9B%84-2025-Implicit%20Reasoning%20in%20Large%20Language%20Models%20A%20Comprehensive%20Survey.pdf::size=6209217"
+      }
+    ]
+  }
+  
 }
