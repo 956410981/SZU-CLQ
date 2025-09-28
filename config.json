@@ -8,10 +8,6 @@
       {
         "title": "大模型Reasoning专题汇报（下）",
         "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2025-09-11%2FPPT-LLM%20Reasoning-%E9%82%93%E6%B5%A9%E5%A5%95-%E6%9B%B4%E6%96%B0.pptx::size=1244551"
-      },
-      {
-        "title": "Implicit Reasoning in Large Language Models: A Compre-hensive Survey",
-        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2025-09-18%2FPaper-%E8%AE%B8%E8%A3%95%E9%9B%84-2025-Implicit%20Reasoning%20in%20Large%20Language%20Models%20A%20Comprehensive%20Survey.pdf::size=6209217"
       }
     ]
   },
@@ -34,8 +30,20 @@
         "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F%E7%BB%84%E4%BC%9A%E6%96%87%E7%8C%AE%E5%88%86%E4%BA%AB%E4%B8%93%E9%A2%98%E6%B1%87%E6%80%BB_2025_9%E6%9C%88%E8%B5%B7%2F%E9%81%97%E5%BF%98%E5%AD%A6%E4%B9%A0%2Fpaper-Offset%20Unlearning%20for%20Large%20Language%20Models.pdf::size=1212536"
       },
       {
-        "title": "Machine Unlearning in Generative AI: A Survey",
+        "title": "综述：Machine Unlearning in Generative AI: A Survey",
         "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F%E7%BB%84%E4%BC%9A%E6%96%87%E7%8C%AE%E5%88%86%E4%BA%AB%E4%B8%93%E9%A2%98%E6%B1%87%E6%80%BB_2025_9%E6%9C%88%E8%B5%B7%2F%E9%81%97%E5%BF%98%E5%AD%A6%E4%B9%A0%2FMachine%20Unlearning%20in%20Generative%20AI%20A%20Survey.pdf::size=1636863"
+      },
+      {
+        "title": "Making Harmful Behaviors Unlearnable for Large Language Models",
+        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F%E7%BB%84%E4%BC%9A%E6%96%87%E7%8C%AE%E5%88%86%E4%BA%AB%E4%B8%93%E9%A2%98%E6%B1%87%E6%80%BB_2025_9%E6%9C%88%E8%B5%B7%2F%E9%81%97%E5%BF%98%E5%AD%A6%E4%B9%A0%2Fpaper-Making%20Harmful%20Behaviors%20Unlearnable%20for%20Large%20Language%20Models.pdf::size=665161"
+      },
+      {
+        "title": "Negative Preference Optimization: From Catastrophic Collapse to Effective Unlearning",
+        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F%E7%BB%84%E4%BC%9A%E6%96%87%E7%8C%AE%E5%88%86%E4%BA%AB%E4%B8%93%E9%A2%98%E6%B1%87%E6%80%BB_2025_9%E6%9C%88%E8%B5%B7%2F%E9%81%97%E5%BF%98%E5%AD%A6%E4%B9%A0%2Fpaper-Negative%20Preference%20Optimization%20From%20Catastrophic%20Collapse.pdf::size=1978351"
+      },
+      {
+        "title": "Separate the Wheat from the Chaff: Model Deficiency Unlearning via Parameter-Efficient Module Operation",
+        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F%E7%BB%84%E4%BC%9A%E6%96%87%E7%8C%AE%E5%88%86%E4%BA%AB%E4%B8%93%E9%A2%98%E6%B1%87%E6%80%BB_2025_9%E6%9C%88%E8%B5%B7%2F%E9%81%97%E5%BF%98%E5%AD%A6%E4%B9%A0%2Fpaper-Separate%20the%20Wheat%20from%20the%20Chaff%20Model%20Deficiency%20Unlearning%20via%20Parameter-Efficient%20Module%20Operation.pdf::size=1619285"
       }
     ]
   },
@@ -70,9 +78,44 @@
   "大模型Agent": {
     "2025": [
       {
-        "title": "AGENTREFINE:ENHANCING AGENT GENERALIZATION THROUGH REFINEMENT TUNING",
+        "title": "文献分享：AGENTREFINE:ENHANCING AGENT GENERALIZATION THROUGH REFINEMENT TUNING",
         "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F%E7%BB%84%E4%BC%9A%E6%96%87%E7%8C%AE%E5%88%86%E4%BA%AB%E4%B8%93%E9%A2%98%E6%B1%87%E6%80%BB_2025_9%E6%9C%88%E8%B5%B7%2F%E5%A4%A7%E6%A8%A1%E5%9E%8BAgent%2FPPT-2025-09-25-%E5%88%98%E5%9F%B9%E9%A3%8E-%E6%96%87%E7%8C%AE%E6%8A%A5%E5%91%8A.pptx::size=652755"
+      
       }
+    ]
+  },
+  "隐写分析": {
+    "2023": [
+      {
+        "title": "文献分享：A Robust Image Steganographic Scheme against General Scaling Attacks",
+        "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2023-11-8%2FPPT-2023-11-8-%E8%82%96%E9%91%AB%E7%94%9C.pptx::size=4924867",
+        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2023-11-8%2FPaper-%E8%82%96%E9%91%AB%E7%94%9C%20-%202022%20-%20A%20Robust%20Image%20Steganographic%20Scheme%20against%20Gener.pdf::size=1259687"
+      },
+      {
+        "title": "文献分享：CRoSS: Diffusion Model MakesControllable, Robust and Secure Image Steganography",
+        "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2023-11-8%2FPPT-2023-11-8-%E8%82%96%E9%91%AB%E7%94%9C.pptx::size=4924867",
+        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2023-11-8%2FPaper-%E8%82%96%E9%91%AB%E7%94%9C%20-%202023%20-%20CRoSS%20Diffusion%20Model%20Makes.pdf::size=16205784"
+      }
+    ]
+  },
+  "模型水印": {
+    "2023": [
+      {
+        "title": "文献分享：Invisible Watermarking for Audio GenerationDiffusion Models",
+        "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2023-11-8%2FPPT-2023-11-8-%E9%99%88%E9%87%91%E5%9F%8E.pptx::size=3399777",
+        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2023-11-8%2FPaper-%E9%99%88%E9%87%91%E5%9F%8E%20-%202023%20-%20Invisible%20Watermarking%20for%20Audio%20Generation%20Diffus.pdf::size=17741417"
+      }
+  
+    ]
+  },
+  "分布外检测（OOD）": {
+    "2023": [
+      {
+        "title": "文献分享：UNCERTAINTY MODELING FOR OUT-OF-DISTRIBUTION GENERALIZATION",
+        "ppt": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2023-11-8%2FPPT-2023-11-8-%E6%9E%97%E5%87%AF%E8%AF%B7.pptx::size=4733655",
+        "paper": "https://www.jianguoyun.com/p/DUeNUAgQxsWTDBii-qgFIAA#file=%2F2023-11-8%2FPaper-%E6%9E%97%E5%87%AF%E6%B8%85-%202022%20-%20UNCERTAINTY%20MODELING%20FOR%20OUT-OF-DISTRIBUTION%20GENER.pdf::size=4696928"
+      }
+  
     ]
   }
 
